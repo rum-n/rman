@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import "normalize";
+
+
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+body { 
+  font-size: 62.5%; 
+  font-family: 'Lucida Grande', Helvetica, sans-serif;
+  background: #121212;
+  color: #999; 
+  padding: 20px;
+  overflow-y: hidden;
+}
+
+tr { 
+  vertical-align: top;
+}
+
+/*
+  STRUCTURE
+*/
+
+.post { 
+  width: 400px; 
+  margin-top: 60px;
+  text-align: justify;
+}
+
+.myname {
+  margin-top: 50%;
+}
+
+/*
+  TYPOGRAPHY
+*/
+
+h1 { 
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  max-width: 470px;
+  font-weight: 900;
+  line-height: 0.8;
+  font-size: 135px;
+  text-transform: uppercase;
+}
+
+h2 { 
+  font-family: inherit; 
+  font-size: 3.0em;
+  letter-spacing: -1px; color: #ccc; 
+  color: #fff;
+  font-weight: 700;
+}
+
+a { 
+  color: #0066cc; 
+}
+
+a:hover { 
+  color: #ccc; 
+}
+
+/*
+  BACKGROUND
+*/
+
+body {
+  background-image: url("../images/mountains.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-size: cover;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/*
+  CONTACT
+*/
+
+.contact-info {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.contact-info li {
+  display: inline;
+  margin-right: 1em;
+}
+
+#contact {
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+  ABOUT
+*/
+
+#about-me {
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  margin-right: 30px;
+}
+
+#about-me p {
+  color: #fff;
+}
+  
+#e-pitch {
+  margin-top: 70px;
+}
+
+#e-pitch-text {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  margin-right: 30px;
+}
+
+#e-pitch-text p {
+  color: #fff;
+}
+  
+/*
+  TIMELINE
+*/
+
+#timeline {
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+/*
+  GENERAL STYLING
+*/
+
+li {
+  list-style-type: none;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #d19898;
+}
