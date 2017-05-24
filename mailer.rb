@@ -31,7 +31,7 @@ def configure_pony
       :password             => ENV['oouj9jsb5909'], 
       :authentication       => :plain, 
       :enable_starttls_auto => true,
-      :domain               => 'rmanev.com'
+      :domain               => 'heroku.com'
     }    
   }
 end
