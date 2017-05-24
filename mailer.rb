@@ -1,40 +1,40 @@
-require 'sinatra'
-require 'pony'
+# require 'sinatra'
+# require 'pony'
 
-post '/' do 
-  configure_pony
-  name = params[:name]
-  sender_email = params[:email]
-  message = params[:message]
-  logger.error params.inspect
-  begin
-    Pony.mail(
-      :from => "#{name}<#{sender_email}>",
-      :to => 'manev.ru@gmail.com',
-      :subject =>"#{name} has contacted you",
-      :body => "#{message}",
-    )
-    redirect '/success'
-  rescue
-    @exception = $!
-    erb :boom
-  end
-end
+# post '/' do 
+#   configure_pony
+#   name = params[:name]
+#   sender_email = params[:email]
+#   message = params[:message]
+#   logger.error params.inspect
+#   begin
+#     Pony.mail(
+#       :from => "#{name}<#{sender_email}>",
+#       :to => 'manev.ru@gmail.com',
+#       :subject =>"#{name} has contacted you",
+#       :body => "#{message}",
+#     )
+#     redirect '/success'
+#   rescue
+#     @exception = $!
+#     erb :boom
+#   end
+# end
 
-def configure_pony
-  Pony.options = {
-    :via => :smtp,
-    :via_options => { 
-      :address              => 'smtp.sendgrid.net', 
-      :port                 => '587',  
-      :user_name            => ENV['app57525483@heroku.com'], 
-      :password             => ENV['oouj9jsb5909'], 
-      :authentication       => :plain, 
-      :enable_starttls_auto => true,
-      :domain               => 'heroku.com'
-    }    
-  }
-end
+# def configure_pony
+#   Pony.options = {
+#     :via => :smtp,
+#     :via_options => { 
+#       :address              => 'smtp.sendgrid.net', 
+#       :port                 => '587',  
+#       :user_name            => ENV['app57525483@heroku.com'], 
+#       :password             => ENV['oouj9jsb5909'], 
+#       :authentication       => :plain, 
+#       :enable_starttls_auto => true,
+#       :domain               => 'heroku.com'
+#     }    
+#   }
+# end
 
 
 
