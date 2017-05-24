@@ -2,6 +2,12 @@
 @import "normalize";
 
 /*ADDED BY ME*/
+
+.span4 {
+  margin-bottom: 1em;
+  margin-right: 0.5em;
+}
+
 .copyright {
   position: absolute;
   bottom: 1em;
@@ -245,9 +251,14 @@ button:hover,.btn:hover{background:#fff;color:#f28b04}
 
 #menu li a.active:after{content:'>';position:absolute}
 
-#social.social{margin-bottom:0}
+#social.social{
+  margin-bottom:0;
+}
 
-#social.social a{font-size:18px;margin:0 3px}
+#social.social a {
+  font-size:18px;
+  margin:0 3px;
+}
 
 #pages{position:absolute;right:0;left:30vw;top:0;min-height:100vh;min-width:600px;max-width:calc(70vw - 560px);box-sizing:border-box;z-index:100;background:#fff;z-index:1;box-shadow:20px 0 20px rgba(255,255,255,.5)}
 
@@ -473,7 +484,7 @@ button:hover,.btn:hover{background:#fff;color:#f28b04}
 
 #contact .three-inputs .input{width:31.5%;display:inline-block}
 
-#contact label{display:none}
+#contact label{display:1em}
 
 #contact .three-inputs .input input{width:100%}
 

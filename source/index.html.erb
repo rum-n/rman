@@ -14,7 +14,7 @@ title: Rumen Manev // Business developer, Project manager, Outdoorsman
 			<li>
 				<a href="http://www.rmanev.com#!/projects" data-anchor="#!/projects" class="active">Projects</a>
 			</li>
-<!-- 			<li>
+<!-- 		<li>
 				<a href="http://www.rmanev.com#!/latest" data-anchor="#!/latest" class="active">Currently</a>
 			</li> -->
 			<li>
@@ -86,8 +86,19 @@ title: Rumen Manev // Business developer, Project manager, Outdoorsman
                     <div class="content">
                         <h2 class="title-caret">Contact</h2>
                         <p>Feel free to drop me a line if you feel like it.<br />
+
+                        <div id='contact-box' class="group">
+                          <div class="span6 clear">
+                            <form action="/" method="post" class="well">
+                              <input type="text" name="name" class="span4" placeholder="Name">
+                              <input type="text" name="email" class="span4" placeholder="Email">
+                              <textarea name="message" cols='30' rows="10" placeholder="Write something..."></textarea><br>
+                              <button type="submit" class="btn" value="Send">Submit</button>
+                            </form>
+                          </div>
+                        </div>
                                 
-                        <form method="post" name="mailer" id="form-mailer" action="https://rman.herokuapp.com/" class="form">
+<!--                         <form method="post" name="mailer" id="form-mailer" form-action="https://rman.herokuapp.com/" class="form">
                             <input name="language" type="hidden" value="en">
 
                             <div class="three-inputs">
@@ -111,7 +122,7 @@ title: Rumen Manev // Business developer, Project manager, Outdoorsman
                             <div class="status"></div>
 
                             <button id="submit-btn" class="submit" data-def="Send" data-load="Sending...">Send</button>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
@@ -120,6 +131,12 @@ title: Rumen Manev // Business developer, Project manager, Outdoorsman
    
     <footer id="footer">
         <div class="section-wrap">
+            <div class="social">
+                <a class="fa fa-envelope menu-white-text fa-lg" href="mailto:manev.ru@gmail.com" target="_blank"></a>
+                <a class="fa fa-linkedin menu-white-text fa-lg" href="https://bg.linkedin.com/in/rmanev" target="_blank"></a>
+                <a class="fa fa-twitter menu-white-text fa-lg" href="http://twitter.com/intent/tweet?screen_name=room_n" target="_blank"></a>
+                <a class="fa fa-medium menu-white-text fa-lg" href="https://medium.com/@room_n" target="_blank"></a>
+            </div>
             <b>&copy;</b> 2017 Rumen Manev
         </div>
     </footer>
