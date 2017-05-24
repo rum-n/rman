@@ -31,7 +31,7 @@
     width: 30vw;
     top: 0;
     bottom: 0;
-    background: #0a53ad;
+    background: #f28b04;
     color: #fff;
     padding: 0 36px;
     box-sizing: border-box;
@@ -123,7 +123,7 @@ button+.or,.btn+.or{margin-left:1em;font-style:italic;font-size:14px}
 
 ::-moz-selection{background:rgba(211,47,47,.75);text-shadow:none;color:#fff}
 
-:focus{outline-color:#0a53ad}
+:focus{outline-color:#f28b04}
 
 ::-webkit-input-placeholder{color:inherit;opacity:.5}
 
@@ -137,17 +137,17 @@ a,a:focus,button,button,.btn,.btn{transition:.25s}
 
 a:active,a:focus,button:active,button:focus,.btn:active,.btn:focus{opacity:.75}
 
-p a,a.c{color:#0a53ad}
+p a,a.c{color:#f28b04}
 
-p a:hover,a.c:hover{box-shadow:inset 0 16px 0 0 #fff,inset 0 -1px 0 0 #0a53ad}
+p a:hover,a.c:hover{box-shadow:inset 0 16px 0 0 #fff,inset 0 -1px 0 0 #f28b04}
 
-input,textarea{font-size:14px;font-family:'Ubuntu',sans-serif;border:2px solid #0a53ad;padding:6px 12px;box-sizing:border-box}
+input,textarea{font-size:14px;font-family:'Ubuntu',sans-serif;border:2px solid #f28b04;padding:6px 12px;box-sizing:border-box}
 
-button,.btn{display:inline-block;cursor:pointer;background:#0a53ad;border:2px solid #0a53ad;padding:6px 12px;font-family:'Ubuntu',sans-serif;font-size:14px;color:#fff}
+button,.btn{display:inline-block;cursor:pointer;background:#f28b04;border:2px solid #f28b04;padding:6px 12px;font-family:'Ubuntu',sans-serif;font-size:14px;color:#fff}
 
-button:hover,.btn:hover{background:#fff;color:#0a53ad}
+button:hover,.btn:hover{background:#fff;color:#f28b04}
 
-.c{color:#0a53ad}
+.c{color:#f28b04}
 
 .content-center{top:50%;position:relative;transform:translateY(-50%)}
 
@@ -223,7 +223,7 @@ button:hover,.btn:hover{background:#fff;color:#0a53ad}
 
 #matrix{position:fixed;right:0;top:0;z-index:0}
 
-#side{z-index:10;position:fixed;left:0;width:30vw;top:0;bottom:0;background:#0a53ad;color:#fff;padding:0 36px;box-sizing:border-box;text-align:right;border-right:7px double #fff}
+#side{z-index:10;position:fixed;left:0;width:30vw;top:0;bottom:0;background:#f28b04;color:#fff;padding:0 36px;box-sizing:border-box;text-align:right;border-right:7px double #fff}
 
 #side svg{fill:#fff}
 

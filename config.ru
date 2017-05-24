@@ -11,3 +11,6 @@ FileUtils.mkdir('log') unless File.exist?('log')
 app = ::Middleman::Application.new
 
 run ::Middleman::Rack.new(app).to_app
+
+require './mailer'
+run Sinatra::Application
