@@ -10,17 +10,15 @@
     <title><%= current_page.data.title || "Middleman" %></title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:700,900' rel='stylesheet' type='text/css'>
-  
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="jquery.mousewheel.js"></script>
 
     <%= stylesheet_link_tag :site %>
     <%= javascript_include_tag :all %>
-    <%= javascript_include_tag :swagmousewheel %>
+
   </head>
 
   <body class="<%= page_classes %>">
     <%= yield %>
   </body>
 </html>
+ 
  
