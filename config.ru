@@ -12,8 +12,8 @@ app = ::Middleman::Application.new
 
 run ::Middleman::Rack.new(app).to_app
 
-require 'sendgrid-ruby'
-include SendGrid
+# require 'sendgrid-ruby'
+# include SendGrid
 
 # from = Email.new(email: 'test@example.com')
 # subject = 'Hello World from the SendGrid Ruby Library!'
@@ -36,5 +36,5 @@ include SendGrid
 #   :authentication => :plain,
 #   :enable_starttls_auto => true
 
-require './mailer'
-run Sinatra::Application
+# require './mailer'
+# run Sinatra::Application
