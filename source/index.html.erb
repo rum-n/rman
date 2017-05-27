@@ -29,7 +29,7 @@ title: Rumen Manev // Business developer, Project manager, Outdoorsman
 			<a class="fa fa-medium menu-white-text fa-lg" href="https://medium.com/@room_n" target="_blank"></a>
 		</div>
 	</div> 
-        <div class="copyright">
+        <div class="copyright" id="social">
             <b>&copy;</b> 2017 Rumen Manev
         </div>
 </div>
@@ -89,11 +89,12 @@ title: Rumen Manev // Business developer, Project manager, Outdoorsman
 
                         <div id='contact-box' class="group">
                           <div class="span6 clear">
-                            <form action="/" method="post" class="well">
-                              <input type="text" name="name" class="span4" placeholder="Name">
-                              <input type="text" name="email" class="span4" placeholder="Email">
-                              <textarea name="message" cols='30' rows="10" placeholder="Write something..."></textarea><br>
-                              <button type="submit" class="btn" value="Send">Submit</button>
+
+                            <form method="POST" action="http://formspree.io/manev.ru@gmail.com">
+                                <input type="text" name="name" class="span4" placeholder="Your name">
+                                <input type="email" name="email" class="span4" placeholder="Your email">
+                                <textarea name="message" cols='30' rows="10" placeholder="Write something..."></textarea>
+                                <button type="submit">Send</button>
                             </form>
                           </div>
                         </div>
