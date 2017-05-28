@@ -53,3 +53,9 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-66629389-1', 'auto');
 ga('send', 'pageview');
+
+
+
+    function nordkins(){
+        window.open('http://www.nordkins.com','popwin','width=640, height=480');
+    }
