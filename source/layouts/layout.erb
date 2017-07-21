@@ -10,8 +10,13 @@
     <title><%= current_page.data.title || "Middleman" %></title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:700,900' rel='stylesheet' type='text/css'>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
     <%= stylesheet_link_tag :site %>
+    <%= stylesheet_link_tag :race_results %>
     <%= javascript_include_tag :all %>
 
   </head>

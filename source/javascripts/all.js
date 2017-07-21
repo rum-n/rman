@@ -1,3 +1,6 @@
+//= require jquery
+//= require sofiamarathon2016_scatterplot.js
+
 var Base = {
     url: 'http://rmanev.com',
 };
@@ -56,6 +59,5 @@ ga('send', 'pageview');
 
 
 
-    function nordkins(){
-        window.open('http://www.nordkins.com','popwin','width=640, height=480');
-    }
+
+

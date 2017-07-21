@@ -1,0 +1,371 @@
+.title-race {
+  text-decoration: underline;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.race-logo {
+  width: 10em;
+}
+
+.races {
+  font-family: "Helvetica Neue";
+  font-size: 1.5em;
+  padding: 0.2em;
+}
+
+#backbutton {
+  padding: 5em;
+  margin: 5em;
+  position: fixed;
+}
+
+#scatterplot-hc {
+  min-width: 310px; 
+  height: 400px; 
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+
+#side-race {
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    width: 20vw;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    color: #222a47;
+    padding: 0 36px;
+    box-sizing: border-box;
+    text-align: right;
+    border-right: 7px double #fff;
+}
+
+.graph {
+  display: block;
+  margin: 0 auto; }
+
+.graph-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999; }
+
+.graph-num {
+  font-family: Georgia;
+  font-size: 10pt; }
+
+.graph-caption, .footnote {
+  margin-bottom: 20px;
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999; }
+  .graph-caption .graphTitle, .footnote .graphTitle {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #333; }
+
+svg {
+  margin-bottom: 20px;
+  max-width: 1140px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa; }
+
+g {
+  display: block;
+  margin: 0 auto; }
+
+.axis {
+  font-family: Georgia;
+  font-size: 10pt; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+i {
+  font-style: italic; }
+
+#spacer {
+  height: 720px;
+  margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    #spacer {
+      height: 360px;
+      margin-bottom: 40px; } }
+
+#swim-start {
+  position: relative;
+  top: 0;
+  display: block; }
+
+.section-separator {
+  display: block;
+  margin: 50px auto;
+  height: 120px;
+  width: 300px; }
+  @media (max-width: 767px) {
+    .section-separator {
+      margin: 10px auto; } }
+
+p {
+  margin-bottom: 40px; }
+
+sup {
+  font-family: Helvetica;
+  font-size: 8pt;
+  color: #B23838; }
+
+.visualization-container {
+  margin-top: 50px; }
+
+.btn-grp-label {
+  margin-bottom: 6.66667px;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: #333;
+  text-transform: none; }
+
+#highlight-form, #percentileInputField {
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999; }
+
+#highlight-form {
+  padding-top: 10px;
+  border-top: 1px solid #ddd; }
+
+input {
+  padding-left: 5px; }
+
+.label {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: #333; }
+
+.markerLabel {
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999; }
+
+.input-error, .ranking-input-error {
+  margin-top: 5px;
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999;
+  color: #FF5050; }
+
+#highlightBibTextInput, #percentileInputField {
+  margin-left: 10px;
+  margin-right: 5px;
+  line-height: 28px; }
+
+.lg-img {
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+img {
+  display: block;
+  margin: 0;
+  width: 100%; }
+
+#swim-start {
+  margin-bottom: 40px; }
+
+.img-caption {
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999; }
+  .img-caption .img-caption-title {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #333; }
+  @media (max-width: 767px) {
+    .img-caption {
+      margin-top: 20px; } }
+
+.img-rounded img {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+
+em {
+  font-weight: bold; }
+
+.d3-tip {
+  line-height: 14pt;
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center; }
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0; }
+
+.btn {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: #333;
+  padding-top: 10px;
+  color: #999; }
+
+.btn-group, .btn-group-vertical {
+  margin-bottom: 20px; }
+  .btn-group label, .btn-group-vertical label {
+    padding-top: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #333;
+    text-transform: capitalize;
+    background-color: #fff;
+    border-color: #ddd;
+    border-width: 1px;
+    color: #aaa; }
+    .btn-group label:hover, .btn-group-vertical label:hover {
+      background-color: #ddd;
+      color: #fff;
+      border-color: #999; }
+  .btn-group :active, .btn-group .active, .btn-group-vertical :active, .btn-group-vertical .active {
+    background-color: #FF5050;
+    border-color: #555; }
+
+::selection {
+  background: #FF5050;
+  /* WebKit/Blink Browsers */ }
+
+::-moz-selection {
+  background: #FF5050;
+  /* Gecko Browsers */ }
+
+.stats-num {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+  font-style: italic;
+  font-size: 12pt;
+  line-height: 18pt; }
+
+.stats-num-exception {
+  font-style: normal;
+  text-align: center;
+  color: #999; }
+
+.stats-label {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: #333;
+  text-transform: none;
+  line-height: 24pt; }
+
+#stats-total-row {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #ddd; }
+
+.stats-you-passed, .stats-passed-you {
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999;
+  font-size: 8pt;
+  line-height: 24pt;
+  vertical-align: middle;
+  opacity: 0; }
+
+.stats-you-passed {
+  color: #118811;
+  text-align: right; }
+
+.stats-passed-you {
+  color: #FF5050;
+  text-align: left; }
+
+.footnote-link {
+  color: #B23838; }
+  .footnote-link:hover {
+    cursor: pointer; }
+
+.footnote {
+  display: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-top: 2px solid #FF5050;
+  border-bottom: 2px solid #FF5050; }
+
+.footer-note {
+  font-family: "Helvetica Neue";
+  font-size: 10pt;
+  color: #999;
+  margin-bottom: 70px; }
+
+.legend {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: normal;
+  text-transform: capitalize; }
+
+#rankingviz > svg {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.center-text {
+  text-align: center; }
+
+#rankings-viz-input-label {
+  font-weight: normal;
+  color: #999; }
+
+#estimated-rank {
+  margin-top: 5px;
+  margin-bottom: 15px; }
+
+#current-rank {
+  font-style: italic; }
+
+ordinal {
+  vertical-align: super;
+  font-size: 9pt; }
