@@ -1,6 +1,3 @@
-//= require jquery
-//= require sofiamarathon2016_scatterplot.js
-
 var Base = {
     url: 'http://rmanev.com',
 };
